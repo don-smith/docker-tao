@@ -33,7 +33,7 @@ open http://<your-machine-ip>
 
 ## Development
 
-For using this environment for development you should to copy `docker-composer.yaml` and `nginx.conf` into folder with your sources of TAO and to add following lines to your `docker-compose.yml` after `image: alroniks/tao:latest`:
+For using this environment for development you should to copy `docker-composer.yaml` and `nginx.conf` into folder with your sources of TAO and to add following lines to your `docker-compose.yml` after `image: locksmithdon/tao:latest`:
 
 ```
 volumes:
