@@ -1,6 +1,6 @@
-FROM php:7-fpm
+FROM php:5-fpm
 
-MAINTAINER Ivan Klimchuk <ivan@klimchuk.com> (@alroniks)
+MAINTAINER Don Smith <don@antiantonym.com> (@locksmithdon)
 
 RUN usermod -u 1000 www-data
 RUN usermod -G staff www-data
