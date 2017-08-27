@@ -4,7 +4,7 @@ Docker container for running TAO Testing platform.
 
 ## Summary
 
-TAO image based on latest php-7 official image and uses latest build of code from [Official TAO Packages](http://www.taotesting.com/get-tao/official-tao-packages/), version 3.1 RC7.
+TAO image based on latest php-5 official image and uses latest build of code from [Official TAO Packages](http://www.taotesting.com/get-tao/official-tao-packages/), version 3.1 RC7.
 
 This container contains only php application, that runs on 9000 tcp port. For build full working application you should use Docker Compose configuration in folder `tao` in this repository.
 
@@ -12,7 +12,7 @@ This container contains only php application, that runs on 9000 tcp port. For bu
 
 ```
 # clone repository
-git clone https://github.com/Alroniks/docker-tao.git
+git clone https://github.com/don-smith/docker-tao.git
 
 # go to tao folder inside
 cd docker-tao/tao
